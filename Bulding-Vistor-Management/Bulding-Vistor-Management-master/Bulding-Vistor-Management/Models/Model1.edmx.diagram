@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ecf6f24d5e78436781e9f46d7719e2f3" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Appartment" Width="1.5" PointX="0.875" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Record" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Tenant" Width="1.5" PointX="5.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Visitor" Width="1.5" PointX="3.125" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Record_Appartment" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Record_Tenant" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Record_Visitor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

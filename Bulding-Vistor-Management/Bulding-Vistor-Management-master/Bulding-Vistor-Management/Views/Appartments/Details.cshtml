@@ -1,0 +1,26 @@
+﻿@model Bulding_Vistor_Management.Models.Appartment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Appartment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AppartmentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AppartmentNumber)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AppartmentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
